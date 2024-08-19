@@ -1,0 +1,76 @@
+body{
+    color: rgb(235, 235, 235);
+    background:rgb(0, 0, 0);
+    margin: 0px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px #C70039;
+    padding-top:50px;
+    text-align: center;
+    /* Adiciona um fundo de degradê no texto */
+    font-size: 60px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Torna a fonte mais espessa para melhor efeito */
+    background: -webkit-linear-gradient(#390e0500, #C70039); /* Degradê linear para navegadores WebKit */
+    background-clip: text;
+    -webkit-background-clip: text; /* Aplica o fundo de degradê ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o degradê */
+}
+
+
+.beginning {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/8339_AC538FB7C42E95EE-2.jpg?w=1200'); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover; /* Faz com que a imagem cubra toda a área da seção */
+    background-position: center; /* Alinha a imagem ao centro */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.texto{
+    margin-right: 5%;
+}
+
+.texto h1{
+    font-size: 40px;
+}
+
+.texto p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria1-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria1{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria1-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria1-videos img:hover{
+    opacity: 1.0;
+    border:2px solid green;
+    transform: scale(1.2);
+}
